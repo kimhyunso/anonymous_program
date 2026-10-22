@@ -1,0 +1,90 @@
+=== RUN 2026-10-22 10:45:05 (ID: eb1e4282) ===
+입력 길이: 7653자
+치환된 식별자 수: 16
+치환된 문자열 수: 67
+[매핑]
+'STR1' = ''
+'STR2' = 'SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED'
+'STR3' = 'SET NOCOUNT ON'
+'STR4' = 'select * from k_original_order'
+'STR5' = 'where seller_code = '''
+'STR6' = ''''
+'STR7' = 'and ord_comp_code = '''
+'STR8' = 'and work_key = '''
+'STR9' = 'ord_date'
+'STR10' = 'ord_comp_code'
+'STR11' = 'ord_item_code'
+'STR12' = 'ord_item_name'
+'STR13' = 'ord_item_opt1'
+'STR14' = 'ord_item_opt2'
+'STR15' = 'fare_code_ord'
+'STR16' = 'fare_price'
+'STR17' = 'bill_type'
+'STR18' = 'bill_price'
+'STR19' = 'item_cost'
+'STR20' = 'qty_ord'
+'STR21' = 'ord_site_user_id'
+'STR22' = 'ord_name'
+'STR23' = 'ord_email'
+'STR24' = 'ord_tel'
+'STR25' = 'ord_hp'
+'STR26' = 'ord_no1'
+'STR27' = 'ord_no2'
+'STR28' = 'ord_no3'
+'STR29' = 'rcv_name'
+'STR30' = 'rcv_email'
+'STR31' = 'rcv_tel'
+'STR32' = 'rcv_hp'
+'STR33' = 'rcv_zipno'
+'STR34' = 'rcv_addr1'
+'STR35' = 'rcv_addr2'
+'STR36' = 'ord_memo'
+'STR37' = 'etc_info1'
+'STR38' = 'etc_info2'
+'STR39' = 'etc_info3'
+'STR40' = 'etc_info4'
+'STR41' = 'seller_code'
+'STR42' = 'reg_datetime'
+'STR43' = 'is_reg'
+'STR44' = 'original_order_key'
+'STR45' = 'call_id'
+'STR46' = 'ord_addr1'
+'STR47' = 'ord_addr2'
+'STR48' = 'ord_zipNo'
+'STR49' = 'jasa_order_yn'
+'STR50' = 'expectedAmount'
+'STR51' = 'ord_user_id'
+'STR52' = 'work_key'
+'STR53' = 'cust_no'
+'STR54' = 'reg_UserNo'
+'STR55' = 'delivery_kind'
+'STR56' = 'ord_packing_no'
+'STR57' = 'ord_kind'
+'STR58' = '0100'
+'STR59' = 'ord_kind3'
+'STR60' = 'act_memo'
+'STR61' = 'country_code'
+'STR62' = 'ju_do'
+'STR63' = 'si_gun'
+'STR64' = 'buildnm'
+'STR65' = 'pcc'
+'STR66' = 'plan_day'
+'STR67' = 'product_link'
+ID1 = Tfrm_order_reg_batch_add_Items
+ID2 = SearchOrignOrderData
+ID3 = oRS
+ID4 = szSQL
+ID5 = cboxOrd_Comp
+ID6 = ItemIndex
+ID7 = Create
+ID8 = fdMem_ord
+ID9 = m_szSellerCode
+ID10 = lsz_Selected_Comp_Code
+ID11 = lszWork_Key
+ID12 = gm_SetCon
+ID13 = Clear
+ID14 = AsCurrency
+ID15 = AsLargeInt
+ID16 = Free
+=== END ===
+
